@@ -22,7 +22,7 @@ pipeline{
         }
 
         // Add the "Deploy" stage here
-	stage('Deploy') {
+	stage('Deploy') { //stage deploy
  steps {
  sh '''
  oc project ngqxba-greetings
